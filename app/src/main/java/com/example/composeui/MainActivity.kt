@@ -40,41 +40,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-
-    @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
-    @Composable
-    fun DrawerLayout(){
-          MaterialTheme{
-
-              Scaffold( topBar ={
-                  TopAppBar(
-                      title = { Text(text = "My First Application") },
-                      navigationIcon = {
-                          IconButton(
-                              onClick = {
-                              }
-                          ) {
-                              Icon(
-                                  imageVector = Icons.Filled.Favorite,
-                                  contentDescription = "Open Navigation Drawer"
-
-                              )
-                          }
-                      }
-                  )
-                  },
-
-                      ){
-                   FloatingActionButton(onClick = { /*TODO*/ }) {
-
-                   }
-
-
-              }
-
-
-
-          }
     }
 
 
